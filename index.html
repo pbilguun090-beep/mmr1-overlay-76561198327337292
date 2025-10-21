@@ -47,7 +47,7 @@
     const REFRESH_MS = 20_000; // 20 seconds
 
     /* CORS proxy to avoid GitHub Pages CORS problems. You can change proxy if needed. */
-    const CORS_PROXY = 'https://api.allorigins.win/raw?url='; // public proxy that returns raw upstream response
+    const CORS_PROXY = 'https://corsproxy.io/?'; // public proxy that returns raw upstream response
     const OPENDOTA_URL = `https://api.opendota.com/api/players/${STEAM_ID}`;
     const FETCH_URL = CORS_PROXY + encodeURIComponent(OPENDOTA_URL);
 
